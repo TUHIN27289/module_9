@@ -6,15 +6,27 @@
   font-weight: 400;
   font-style: normal;
 }
-
-
-
+/* shared style */
+.btn-primary{
+    width: 180px;
+    height: 64px;
+    color: #ffffff;
+    background-color: #ff900e;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 20px;
+}
 
 /* header section */
 header {
     /* background-color: #FF900E; */
     background-color: #FF900E1A
 ;
+}
+.h-adding{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
 }
 li{
     list-style: none;
@@ -25,16 +37,48 @@ nav ul li a{
 }
 .nav-container{
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 .nav-item{
     display: flex;
     justify-content: space-around;
     gap: 40px;
+    padding-top: 35px;
+    color: #424242
+;
     
     /* gap: 20px; */
 }
 .nav-items{
-    margin: 20px 50px 0px 20px;
+    margin: 20px 50px 40px 20px;
+}
+.band{
+    text-align: center;
+    margin: 0px 430px 20px 430px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+.band-h{
+    font-weight: 700;
+    font-size: 64px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.band-p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+;
+}
+.banner-img {
+    padding: 0px 10px 40px 135px;
+}
+.banner-img img{
+    width: 1200px;
+    height: 600px;
+
 }

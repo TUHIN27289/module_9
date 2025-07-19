@@ -123,13 +123,29 @@ nav ul li a{
     display: block;
 }
 
+/* teams responsive */
 
 
 
-
-
-
-
+.th-1{
+    grid-area: th_1;
+}
+.th-2{
+    grid-area: th_2;
+}
+.th-3{
+    grid-area: th_3;
+}
+.t-p{
+    grid-area: t_p;
+}
+.t-b{
+    grid-area: t_b;
+}
+.teams-image{
+    grid-area: t_img;
+    /* grid-template-columns: repeat(1,1fr); */
+}
 
 
 
@@ -212,4 +228,26 @@ nav ul li a{
     font-weight: 500;
     font-size: 1rem;
 }
+/* responsive teams */
+
+
+
+/* .teams-section{
+    grid-template-areas: 
+    "th_1 th_2"
+    "th_3 th_3"
+    "t_p t_p"
+    "t_img "
+    ;
+} */
+
+.team-items{
+    flex-direction: column-reverse;
+}
+.teams-image{
+    /* flex-direction: column; */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
 }

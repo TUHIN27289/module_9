@@ -82,3 +82,94 @@ nav ul li a{
     height: 600px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive header */
+@media screen and (max-width:576px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .band{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .band-h{
+    font-weight: 600;
+    /* display: block; */
+    font-size: 2rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.banner-img{
+    padding-left: 0px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+    .banner-img img{
+        max-width: 400px;
+        height: auto;
+        border-radius: 8px;
+    }
+    .nav-items{
+    margin: 0px 10px 0px 10px;
+}
+
+.nav-item{
+    gap: 30px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    color: #424242
+;
+}
+.btn-primary{
+    width: 120px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #ff900e;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+}

@@ -138,6 +138,13 @@ nav ul li a{
     padding-bottom: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
+    
+}
+.h-adding{
+    font-weight: 700;
+    font-size: 2.9rem;
+    color: #131313;
+    padding-left: 20px;
 }
 .banner-img{
     padding-left: 0px;

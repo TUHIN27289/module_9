@@ -259,7 +259,7 @@ nav ul li a{
 
 /* responsive header */
 @media screen and (max-width:576px) {
-    .nav-container,.features-container{
+    .nav-container,.features-container,.fact-items{
         flex-direction: column;
     }
     .band{
@@ -332,6 +332,13 @@ nav ul li a{
 }
 .features-container{
     gap: 15px;
+}
+.fact-items{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 30px;
+    margin-left: 20px;
+
 }
 
 }

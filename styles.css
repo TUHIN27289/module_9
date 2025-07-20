@@ -123,30 +123,36 @@ nav ul li a{
     display: block;
 }
 
-/* teams responsive */
-
-
-
-.th-1{
-    grid-area: th_1;
-}
-.th-2{
-    grid-area: th_2;
-}
-.th-3{
-    grid-area: th_3;
-}
-.t-p{
-    grid-area: t_p;
-}
-.t-b{
-    grid-area: t_b;
-}
-.teams-image{
-    grid-area: t_img;
-    /* grid-template-columns: repeat(1,1fr); */
+/* features section */
+.features-container{
+    
+    display: flex;
+    gap: 100px;
 }
 
+.features{
+    max-width: 1350px;
+    margin: 0 auto;
+
+}
+.fh{
+    display: block;
+}
+.f-item-heading{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #131313;
+}
+.features-items{
+/*     
+} */
+.features-item{
+    background-color:#ffffff;
+    box-shadow: 0 4px 30px 0 rgba(0,0,0, 0.6);
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
 
 
 
@@ -229,18 +235,6 @@ nav ul li a{
     font-size: 1rem;
 }
 /* responsive teams */
-
-
-
-/* .teams-section{
-    grid-template-areas: 
-    "th_1 th_2"
-    "th_3 th_3"
-    "t_p t_p"
-    "t_img "
-    ;
-} */
-
 .team-items{
     flex-direction: column-reverse;
 }

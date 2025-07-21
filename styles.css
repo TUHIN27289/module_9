@@ -6,6 +6,21 @@
   font-weight: 400;
   font-style: normal;
 }
+
+
+/* Layout base - makes footer work correctly */
+/* html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+} */
+
 /* shared style */
 .btn-primary{
     width: 180px;
@@ -127,7 +142,7 @@ nav ul li a{
 .features-container{
     
     display: flex;
-    gap: 100px;
+    gap: 130px;
 }
 
 .features{
@@ -151,6 +166,30 @@ nav ul li a{
     margin-bottom: 20px;
     border-radius: 8px;
 }
+.experience-badge{
+    width: 310px;
+    height: 170px;
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    margin-top: -100px;
+    margin-left: -80px;
+}
+.experience-year{
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+}
+.experience-text{
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+
+
 
 /* fact styles */
 .fact{
@@ -257,9 +296,13 @@ nav ul li a{
 
 
 
+
+
+
+
 /* responsive header */
 @media screen and (max-width:576px) {
-    .nav-container,.features-container,.fact-items{
+    .nav-container,.features-container,.fact-items,.spons-flex{
         flex-direction: column;
     }
     .band{
@@ -276,9 +319,15 @@ nav ul li a{
     margin-top: 0px;
     
 }
+.band-p{
+    font-weight: 400;
+    font-size: .9rem;
+    color: #727272;
+;
+}
 .h-adding{
     font-weight: 700;
-    font-size: 2.9rem;
+    font-size: 2rem;
     color: #131313;
     padding-left: 20px;
 }
@@ -333,12 +382,68 @@ nav ul li a{
 .features-container{
     gap: 15px;
 }
+.sponspors-item img{
+    width: 120px;
+    height: 40px;
+}
+
 .fact-items{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     row-gap: 30px;
     margin-left: 20px;
 
+}
+.fact-p{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.f-box-heading{
+    font-weight:600 ;
+    font-size: 1.8rem;
+    color: #424242;
+}
+.spons-flex{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 30px;
+    column-gap: 20px;
+    margin-left: 30px;
+}
+.footer-p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #424242;
+    background-color: #FFF4E7;
+    text-align: left;
+    padding: 20px 20px;
+    border-radius: 8px;
+    margin: 0px 20px 30px 20px;
+}
+.footer-f{
+    margin-top: 0px;
+    padding-top: 0px;
+     margin-bottom: 0px;
+}
+.experience-badge{
+    width: 250px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    margin-top: -100px;
+    margin-left: 100px;
+}
+.experience-year{
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+.experience-text{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 }
